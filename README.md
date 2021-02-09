@@ -5,7 +5,6 @@ Image Finder is android application which uses OCR(Optical Character Recognition
 The text found by OCR is converted to text query and saved to a .txt file in app/data/data, which is later matched with user's search query and displayed in Grid Search when found, same is with Image Classification. Only at first run the models scan for texts/classes, in later runs application checks for file changes, if found then only Rescan the deorectory, else use the saved .txt file to match queries to save computations. It uses [ml-kit](https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart) for OCR and Image Classification. Image classification model is Image-Net pretrained with tensorflow hosted [here](https://www.tensorflow.org/lite/guide/hosted_models). Currently limited directories are added to find images(DCIM, Download, PICTURES, Bluetooth, Edited), one can easily add them in "get_all_images()" function under MainActivity.java.
 
 ## Screens
-![1](/Screens/s1.png)
 ![2](/Screens/s2.png) 
 ![3](/Screens/s3.png) 
 
