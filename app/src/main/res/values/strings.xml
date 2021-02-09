@@ -1,0 +1,5 @@
+<resources>
+    <color name="purple">#882CFF</color>
+
+    <string name="app_name">Find In Image</string>
+</resources>
