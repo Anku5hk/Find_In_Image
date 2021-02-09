@@ -15,6 +15,7 @@ The text found by OCR is converted to text query and saved to a .txt file in app
 * Clean code and tons of comments.
 * Android 7.0 - 10.0 support.
 * Easy to transport code to your gallery application.
+* Find .apk file [here](https://drive.google.com/file/d/1NX1PZtpgUx8YRT83dvjX4H4ceqqq-0fv/view?usp=sharing).
 
 ## Improvements
 * Use MRPC to match search queries.
