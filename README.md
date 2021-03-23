@@ -11,13 +11,19 @@ The text found by OCR is converted to text query and saved to a .txt file in app
 
 ## Features
 * Fast and easy to use UI.
+* Finds images and share with one tap.
 * Uses newest ML-Kit-Vision API.
-* Clean code and tons of comments.
+* Clean code and many of comments.
 * Android 7.0 - 10.0 support.
 * Easy to transport code to your gallery application.
 * Find .apk file [here](https://drive.google.com/file/d/1NX1PZtpgUx8YRT83dvjX4H4ceqqq-0fv/view?usp=sharing).
 
+## Applications
+* Find meme in local directory.
+* Find your documents from directory.
+
 ## Improvements
+* Currently only reads of images in cureent dirs and not sub-dirs to save computation time.
 * Use MRPC to match search queries.
 * Find Faces too, first tag them, make a query out of it, then match faces with tagged face.
 * Maybe not supported on Android 11(due to storage permission scope).
